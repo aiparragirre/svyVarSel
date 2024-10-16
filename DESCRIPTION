@@ -1,0 +1,21 @@
+Package: svyVarSel
+Title: Variable Selection for Complex Survey Data
+Version: 1.0.1
+Authors@R: 
+    c(person("Amaia", "Iparragirre", , "amaia.iparragirre@ehu.eus", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-0660-6535")),
+      person("Thomas", "Lumley", role = c("aut")),
+      person("Irantzu", "Barrio", role = c("aut")),
+      person("Inmaculada", "Arostegui", role = c("aut")))
+Maintainer: Amaia Iparragirre <amaia.iparragirre@ehu.eus>
+Description: Fit design-based linear and logistic elastic nets with complex survey data considering the sampling design when defining training and test sets using replicate weights. Methods implemented in this package are described in: A. Iparragirre, T. Lumley, I. Barrio, I. Arostegui (2024) <doi:10.1002/sta4.578>.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+	survey,
+	glmnet
+Depends: 
+    R (>= 2.10)
+LazyData: true

@@ -1,0 +1,18 @@
+citHeader("To cite svyVarSel package in publications use one or more of:")
+
+bibentry(
+  bibtype  = "misc",
+  title    = "svyVarSel: Variable selection for complex survey data",
+  author   = "Amaia Iparragirre",
+  year     = 2024,
+  note     = "R package version 1.0.0.",
+  textVersion = "A. Iparragirre (2024) \"svyVarSel: Variable selection for complex survey data\". R package version 1.0.0."
+)
+
+bibentry(bibtype="article",
+  year= 2023,
+  author="Amaia Iparragirre and Thomas Lumley and Irantzu Barrio and Inmaculada Arostegui",
+  title = "Variable selection with LASSO regression for complex survey data",
+  journal="Stat",
+  volume="12",number=1,pages="e578"
+)
